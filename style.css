@@ -1,0 +1,103 @@
+* {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+.recipe-list li {
+    font-size: 20px;
+}
+
+.recipe-title {
+    font-size: 40px;
+    color: rgb(128, 130, 240);
+}
+
+.desc-div {
+    background-color: rgb(128, 130, 240);
+}
+
+.desc-div h2 {
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.desc-div p {
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.ing-div {
+    background-color: beige;
+}
+
+.ing-div h2 {
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.ing-div ul {
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.steps-div {
+    background-color: coral;
+}
+
+.steps-div h2 {
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.steps-div ol {
+    padding-left: 40px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.steps-div ol li {
+    margin-bottom: 10px;
+}
+
+.title-container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.title-container img {
+    width: 90vw;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.title-container h1 {
+    font-size: 40px;
+    margin-left: 0px;
+}
+
+.recipe-list {
+    width: 90vw;
+    list-style-type: none;
+    margin-top: 30px;
+
+}
+
+.recipe-list li {
+    margin-bottom: 15px;
+}
+
+.recipe-list li .li-image {
+    display: inline-block;
+    width: 20vw;
+    height: auto;
+    padding-right: 10px;
+}
+
+.recipe-list li a {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5%;
+}
+
